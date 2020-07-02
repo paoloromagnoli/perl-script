@@ -1,2 +1,2 @@
-# Shell script to get the full system information
-Run the script using:    ./system_info.sh
+# Perl script to play around
+Run the script using:    perl check.pl
