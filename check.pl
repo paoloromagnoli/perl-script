@@ -7,9 +7,9 @@ while (my $line = <$fh>) {
         chomp $line;
         if($line =~ /Apache is installed by Ansible/){
                 print "Succes!\n";
-                exit 1;
+                exit 0;
         }
 }
 print "Failed!\n";
-exit 0;
+exit 1;
 close($fh);
